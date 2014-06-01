@@ -1,4 +1,4 @@
-all: HelloFS BindFS
+all: HelloFS BindFS LiveFS
 
 HelloFS: HelloFS.hs
 	ghc -threaded --make HelloFS.hs

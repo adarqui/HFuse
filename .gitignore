@@ -1,0 +1,5 @@
+*.hi
+*.o
+examples/LiveFS
+examples/HelloFS
+examples/BindFS
