@@ -1,3 +1,10 @@
+Why I forked:
+ * Wouldn't compile in my ghc 7.8 environment
+ * Patched System/Fuse.hsc using realdesktop's E.catch patch
+ * ^- Had to fix some whitespace/column issues after applying the patch
+
+-- original
+
 Programs using HFuse should be compiled with -threaded.
 
 HelloFS seems to work with:
